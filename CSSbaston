@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(45deg, #ff1a1a, #ffcc00, #1aff1a, #00ccff);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 3px solid #ff00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+button {
+    background: #ff00ff;
+    color: #fff;
+    border: 2px solid #00ff00;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #00ff00;
+    color: #ff00ff;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+.fighters-selection, .game-area {
+    margin: 20px 0;
+}
+
+select {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 2px solid #ff00ff;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#combat-log {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border: 2px solid #00ff00;
+    min-height: 200px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #00ff00;
+    overflow-y: auto;
+}
+
+.leaderboard {
+    margin-top: 20px;
+}
+
+#leaderboard-list {
+    list-style: none;
+    padding: 0;
+}
+
+#leaderboard-list li {
+    background: rgba(255, 0, 255, 0.2);
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #00ff00;
+}
